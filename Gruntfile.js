@@ -60,14 +60,14 @@ module.exports = function(grunt) {
         options: {
           stdout: true
         },
-        command: 'browserify src/main.js -o dist/progressbar.js --standalone ProgressBar'
+        command: 'browserify src/main.js -o dist/progressbar.js --standalone ProgrezzBar'
       },
       browserifyMinified: {
         options: {
           stdout: true
         },
         // The output file is minified by uglifyjs later.
-        command: 'browserify src/main.js -o dist/progressbar.min.js --standalone ProgressBar'
+        command: 'browserify src/main.js -o dist/progressbar.min.js --standalone ProgrezzBar'
       },
       watchifyLocalDev: {
         options: {
